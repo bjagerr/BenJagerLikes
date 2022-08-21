@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 231, 231);
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top{
+    background-color: rgb(52, 53, 59);
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.your-feed{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+}
+
+.leftbox{
+    flex: 1;
+}
+
+.profile{
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid rgb(52, 53, 59);
+}
+
+.profile h1 {
+    margin-top: 25px;
+}
+
+.profpic{
+    height: 120px;
+    margin: 20px;
+}
+
+.leftbox p{
+    margin: 10px;
+}
+
+.rightboxes{
+    flex: 2;
+    margin-left: 50px;
+}
+
+.feed{
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(52, 53, 59);
+    font-size: 14pt;
+    width: 700px;
+}
+
+.name-likes{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px
+}
+
+.likebtn{
+    background-color: rgb(245, 245, 12);
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    height: 35px;
+    width: 55px;
+}
